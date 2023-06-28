@@ -2,34 +2,33 @@ body, html {
     margin: 0;
     font-family: sans-serif;
 }
-
 .content {
     margin: 0 auto;
     width: 400px;
+    background-color: #00ADB5;
+    border: 2px solid black;
+    padding: 50px;
+    border-radius: 50px;
+    margin-top: 30px;
 }
-
 table, td, th {
     border: 1px solid #aaa;
 }
-
 table {
     border-collapse: collapse;
     width: 100%;
 }
-
 th {
+    background-color: #72a9ae !important;
     height: 30px;
 }
-
 td {
     text-align: center;
     padding: 5px;
 }
-
 .form {
     margin-top: 20px;
 }
-
 #content {
     width: 70%;
 }
